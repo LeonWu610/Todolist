@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="Todolist.css">
+</head>
+
+<body>
+    <header>TO DO LIST</header>
+    <div class="show-grid">
+        <input placeholder="items" 
+        onkeydown="enter(event)" class="js-input">
+        <input type="date" class="js-date" 
+        onkeydown="enter(event)">
+        <button onclick="addItems();" 
+        class="add-button">add</button>
+    </div>
+
+    <div class="js-show"></div>
+    
+    <script src="Todolist.js"></script>
+</body>
+
+</html>
